@@ -1,0 +1,97 @@
+# Build Folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ssets/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Microsoft Azure
+.azure/
+.ionide/
+.vscode/
+.vs/
+.vscode/settings.json
+
+# Windows Azure Packaging
+.csx/
+*.build.csdef
+
+# IIS
+[Ii][Nn][Ee][Tt][Ll]og/
+logs/
+*.log
+
+# Rider
+.idea/
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# NuGet
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Backup & Reporting
+_backup/
+Reports/
+
+# Resharper
+_ReSharper.Caches/
+
+# Web files
+node_modules/
+bower_components/
+jspm_packages/
+dist/
+
+# Bundle config
+.bundleconfig.json
+.bower.json
+
+# Yarn
+.yarn/
+
+# Publish Folder
+publish/
+
+# Build Results
+*.pdb
+*.obj
+*.exe
+*.dll
+*.bin
+*.suo
+*.appxsym
+*.appxupload
+
+# ASP.NET Temporary files
+aspnetclient/
+
+# Logs
+*.log

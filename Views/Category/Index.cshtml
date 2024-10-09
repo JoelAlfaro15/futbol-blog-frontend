@@ -1,0 +1,65 @@
+@model IEnumerable<futblog.Models.Category>
+
+@{
+    ViewBag.Title = "Listado de Categorías";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Listado de Categorías</h2>
+    <div class="text-end mb-3">
+        <a href="@Url.Action("Create", "Category")" class="btn btn-success">Agregar Nueva Categoría</a>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.Id</td>
+                        <td>@category.Name</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Category", new { id = category.Id })" class="btn btn-warning btn-sm">Editar</a>
+                            <button class="btn btn-danger btn-sm" onclick="deleteCategory(@category.Id)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">No hay categorías disponibles.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        async function deleteCategory(id) {
+            if (confirm("¿Estás seguro de que deseas eliminar esta categoría?")) {
+                const response = await fetch(`http://localhost:5239/api/Categories/${id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    alert("Categoría eliminada con éxito.");
+                    location.reload(); // Recarga la página para actualizar la lista
+                } else {
+                    alert("Error al eliminar la categoría.");
+                }
+            }
+        }
+    </script>
+}

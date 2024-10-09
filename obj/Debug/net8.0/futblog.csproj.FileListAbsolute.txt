@@ -1,0 +1,71 @@
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\futblog.staticwebassets.runtime.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\futblog.exe
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\futblog.deps.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\futblog.runtimeconfig.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\futblog.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\futblog.pdb
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.AssemblyInfoInputs.cache
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.AssemblyInfo.cs
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.csproj.CoreCompileInputs.cache
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.RazorAssemblyInfo.cache
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.RazorAssemblyInfo.cs
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.sourcelink.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets\msbuild.futblog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets\msbuild.build.futblog.props
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.futblog.props
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.futblog.props
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\scopedcss\bundle\futblog.styles.css
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\scopedcss\projectbundle\futblog.bundle.scp.css
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\refint\futblog.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.pdb
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.genruntimeconfig.cache
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\ref\futblog.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.csproj.AssemblyReference.cache
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Usuario1\Documents\C#\ASP\MVC\futblog\obj\Debug\net8.0\futblog.csproj.Up2Date
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\appsettings.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\futblog.staticwebassets.runtime.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\futblog.exe
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\futblog.deps.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\futblog.runtimeconfig.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\futblog.dll
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\futblog.pdb
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.csproj.AssemblyReference.cache
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.AssemblyInfoInputs.cache
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.AssemblyInfo.cs
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.csproj.CoreCompileInputs.cache
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.RazorAssemblyInfo.cache
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.RazorAssemblyInfo.cs
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets\msbuild.futblog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets\msbuild.build.futblog.props
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.futblog.props
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.futblog.props
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\scopedcss\bundle\futblog.styles.css
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\scopedcss\projectbundle\futblog.bundle.scp.css
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.csproj.Up2Date
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.dll
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\refint\futblog.dll
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.pdb
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\futblog.genruntimeconfig.cache
+C:\Users\ajar9\OneDrive\Escritorio\Api project\Frontend\futblog\obj\Debug\net8.0\ref\futblog.dll
