@@ -4,9 +4,63 @@
     ViewBag.Title = "Crear Nueva Categoría";
 }
 
+<style>
+    body {
+        background: linear-gradient(135deg, #f2f0fa, #ffffff);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+        margin-top: 40px;
+    }
+    h2 {
+        color: #2d0b41;
+        margin-bottom: 20px;
+    }
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .card-body {
+        padding: 20px;
+    }
+    .form-label {
+        font-weight: bold;
+        color: #2d0b41;
+    }
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ced4da;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .form-control:focus {
+        border-color: #5e178c;
+        box-shadow: 0 0 5px rgba(94, 23, 140, 0.5);
+    }
+    .btn-primary {
+        background-color: #5e178c;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-primary:hover {
+        background-color: #4c0f67;
+        transform: scale(1.05);
+    }
+    .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        transform: scale(1.05);
+    }
+</style>
+
 <div class="container mt-4">
     <h2 class="text-center">Crear Nueva Categoría</h2>
-    <div class="card shadow" style="width: 600px; margin: auto;">
+    <div class="card shadow" style="max-width: 600px; margin: auto;">
         <div class="card-body">
             <form asp-action="Create" method="post">
                 <div class="mb-3">

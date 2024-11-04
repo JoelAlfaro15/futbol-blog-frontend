@@ -3,6 +3,69 @@
 @{
     ViewBag.Title = "Listado de Categorías";
 }
+<style>
+    body {
+        background: linear-gradient(135deg, #f2f0fa, #ffffff);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+        margin-top: 40px;
+    }
+    h2 {
+        color: #2d0b41;
+        margin-bottom: 20px;
+    }
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-success:hover {
+        background-color: #218838;
+        transform: scale(1.02);
+    }
+    .table {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .table th {
+        background-color: #5e178c;
+        color: white;
+        font-weight: bold;
+    }
+    .table td {
+        background-color: #ffffff;
+    }
+    .table tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #dee2e6;
+    }
+    .btn-warning {
+        background-color: #ffc107;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-warning:hover {
+        background-color: #e0a800;
+        transform: scale(1.02);
+    }
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-danger:hover {
+        background-color: #c82333;
+        transform: scale(1.02);
+    }
+</style>
 
 <div class="container mt-4">
     <h2 class="text-center">Listado de Categorías</h2>
