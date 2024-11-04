@@ -6,20 +6,24 @@
 
 <style>
     .post-card {
-        border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        background: linear-gradient(135deg, #ffffff, #f2f0fa);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
     }
     .post-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
     }
     .post-card .card-title {
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #2d0b41;
     }
     .post-card .card-subtitle, .post-card .text-muted {
-        font-size: 0.9rem;
+        font-size: 1rem;
+        color: #5e178c;
     }
     .post-card .card-text {
         overflow: hidden;
@@ -27,11 +31,39 @@
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
+        color: #4a4a4a;
     }
     .post-card .btn {
-        margin-right: 5px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .post-card .btn-danger {
+        background-color: #d9534f;
+        border: none;
+    }
+    .post-card .btn-danger:hover {
+        background-color: #c9302c;
+    }
+    .post-card .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+    }
+    .post-card .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+    .post-card .btn:hover {
+        color: #ffffff;
+    }
+    .btn-success
+    {
+        background: linear-gradient(135deg, #340b47, #311f77);
+        border: none;
+        font-weight: bold;
+        padding: 12px;
     }
 </style>
+
 
 <div class="text-center" style="margin-top: 20px;">
     @if(ViewBag.userstotal == 0)
@@ -41,7 +73,7 @@
         </div>
     }
     else {
-        <a href="@Url.Action("Create", "Posts")" class="btn btn-success w-50 p-2">
+        <a href="@Url.Action("Create", "Posts")" class="btn btn-success w-50">
             Crear Publicación
         </a>
     }
