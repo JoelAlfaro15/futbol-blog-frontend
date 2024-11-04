@@ -531,23 +531,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ajar9\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario1\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario1\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajar9\\OneDrive\\Escritorio\\Api project\\Frontend\\futblog\\futblog.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario1\\Documents\\C#\\ASP\\FUTBLOG\\futbol-blog-frontend\\futblog.csproj",
       "projectName": "futblog",
-      "projectPath": "C:\\Users\\ajar9\\OneDrive\\Escritorio\\Api project\\Frontend\\futblog\\futblog.csproj",
-      "packagesPath": "C:\\Users\\ajar9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajar9\\OneDrive\\Escritorio\\Api project\\Frontend\\futblog\\obj\\",
+      "projectPath": "C:\\Users\\Usuario1\\Documents\\C#\\ASP\\FUTBLOG\\futbol-blog-frontend\\futblog.csproj",
+      "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario1\\Documents\\C#\\ASP\\FUTBLOG\\futbol-blog-frontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Users\\Usuario1\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ajar9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -608,7 +611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
