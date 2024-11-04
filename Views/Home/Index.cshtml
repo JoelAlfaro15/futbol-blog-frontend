@@ -2,22 +2,49 @@
 
 @{
     ViewData["Title"] = "Home Page";
-
 }
+
+<style>
+    .post-card {
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+    .post-card .card-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .post-card .card-subtitle, .post-card .text-muted {
+        font-size: 0.9rem;
+    }
+    .post-card .card-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .post-card .btn {
+        margin-right: 5px;
+    }
+</style>
 
 <div class="text-center" style="margin-top: 20px;">
     @if(ViewBag.userstotal == 0)
     {
         <div class="alert alert-warning" role="alert">
-            No hay usuarios registrados para crear pubicaciones.
+            No hay usuarios registrados para crear publicaciones.
         </div>
     }
-    else{
+    else {
         <a href="@Url.Action("Create", "Posts")" class="btn btn-success w-50 p-2">
             Crear Publicación
         </a>
     }
-    
 </div>
 
 <div class="container mt-4">
@@ -27,17 +54,18 @@
         {
             foreach (var post in Model)
             {
-                <div class="col-md-4 mb-3">
-                    <div class="card">
+                <div class="col-md-4 mb-4">
+                    <div class="card post-card">
                         <div class="card-body">
-                            <h6 class="card-subtitle">Post #@post.Id</h6>
-                            <h6 class="text-muted">Pubicado por @post.User.Username</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Post #@post.Id</h6>
+                            <h6 class="text-muted mb-2">Publicado por @post.User.Username</h6>
                             <h5 class="card-title">@post.Title</h5>
-                            <p class="text-muted">categoria: @post.Category.Name</p>
+                            <p class="text-muted mb-2">Categoría: @post.Category.Name</p>
                             <p class="card-text">@post.Body</p>
-                            <button class="btn btn-danger" onclick="eliminarPost(@post.Id)">Eliminar</button>
-                            <a href="@Url.Action("Edit", "Posts", new { id = post.Id })" class="btn btn-secondary">Editar</a>
-
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-danger" onclick="eliminarPost(@post.Id)">Eliminar</button>
+                                <a href="@Url.Action("Edit", "Posts", new { id = post.Id })" class="btn btn-secondary">Editar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,16 +86,14 @@
             return;
         }
         fetch(`http://localhost:5239/api/posts/${postId}`, {
-            method: 'DELETE',  // Usamos DELETE porque es el método más adecuado para eliminaciones
+            method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
             }
         })
         .then(response => {
             if (response.ok) {
-                alert('Publicación eliminada con éxito.');
-                // Recargar la página o eliminar el post del DOM
-                location.reload();  // Recarga la página para reflejar los cambios
+                location.reload();
             } else {
                 return response.json().then(error => {
                     alert('Error al eliminar la publicación: ' + (error.message || 'Error desconocido.'));
@@ -80,4 +106,3 @@
         });
     }
 </script>
-

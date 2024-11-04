@@ -79,7 +79,6 @@ dist/
 
 # Publish Folder
 publish/
-obj/
 
 # Build Results
 *.pdb
