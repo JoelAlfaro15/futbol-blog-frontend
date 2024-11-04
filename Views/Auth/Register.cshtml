@@ -4,8 +4,74 @@
     ViewBag.Title = "Registro";
 }
 
-<div class="container d-flex justify-content-center align-items-center" style="height: 100vh; background-color: #f8f9fa;">
-    <div class="card shadow" style="width: 400px;">
+<style>
+    body {
+        background: linear-gradient(135deg, #f2f0fa, #ffffff);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .register-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f8f9fa;
+    }
+    .card {
+        width: 400px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+    .card-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #2d0b41;
+        margin-bottom: 1rem;
+    }
+    .form-label {
+        font-weight: 600;
+        color: #5e178c;
+    }
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid #c4c4c4;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .form-control:focus {
+        border-color: #5e178c;
+        box-shadow: 0 0 8px rgba(94, 23, 140, 0.2);
+    }
+    .btn-primary {
+        background-color: #5e178c;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-primary:hover {
+        background-color: #4a0d6b;
+        transform: scale(1.02);
+    }
+    .text-danger {
+        font-size: 0.85rem;
+    }
+    .text-center p {
+        margin: 0;
+    }
+    .text-center a {
+        color: #5e178c;
+        text-decoration: underline;
+    }
+    .text-center a:hover {
+        color: #4a0d6b;
+    }
+</style>
+
+<div class="container register-container">
+    <div class="card">
         <div class="card-body">
             <h5 class="card-title text-center">Registro de Usuario</h5>
             <form asp-action="Register" method="post">
